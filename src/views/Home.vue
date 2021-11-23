@@ -8,7 +8,7 @@
     <p>Year:</p>
     <input type="text" v-model="newMovieParams.year" />
     <p>Director:</p>
-    <input type="string" v-model="newMovieParams.irector" />
+    <input type="string" v-model="newMovieParams.director" />
     <p></p>
     <button v-on:click="createMovie()">Create Movie</button>
 
